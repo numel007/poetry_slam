@@ -1,30 +1,26 @@
-Now, said the cook, I will teach you
-how to stuff a pepper with rice.
-
-Take your pepper green, and gently,
-for peppers are shy.  No matter which side
-you approach, it's always the backside.
-Perched on green buttocks, the pepper sleeps.
-In its silk tights, it dreams
-of somersaults and parsley,
-of the days when the sexes were one.
-
-Slash open the sleeve
-as if you were cutting a paper lantern,
-and enter a moon, spilled like a melon,
-a fever of pearls,
-a conversation of glaciers.
-It is a temple built to the worship
-of morning light.
-
-I have sat under the great globe
-of seeds on the roof of that chamber,
-too dazzled to gather the taste I came for.
-I have taken the pepper in hand,
-smooth and blind, a runt in the rich
-evolution of roses and ferns.
-You say I have not yet taught you
-to stuff a pepper?
-Cooking takes time.
-
-Next time we'll consider the rice.
+1: Now, said the cook, I will teach you
+2: how to stuff a pepper with rice.
+3: Take your pepper green, and gently,
+4: for peppers are shy.  No matter which side
+5: you approach, it's always the backside.
+6: Perched on green buttocks, the pepper sleeps.
+7: In its silk tights, it dreams
+8: of somersaults and parsley,
+9: of the days when the sexes were one.
+10: Slash open the sleeve
+11: as if you were cutting a paper lantern,
+12: and enter a moon, spilled like a melon,
+13: a fever of pearls,
+14: a conversation of glaciers.
+15: It is a temple built to the worship
+16: of morning light.
+17: I have sat under the great globe
+18: of seeds on the roof of that chamber,
+19: too dazzled to gather the taste I came for.
+20: I have taken the pepper in hand,
+21: smooth and blind, a runt in the rich
+22: evolution of roses and ferns.
+23: You say I have not yet taught you
+24: to stuff a pepper?
+25: Cooking takes time.
+26: Next time we'll consider the rice.
