@@ -1,19 +1,20 @@
 infile = open("poem.txt", "r")
-poem_lines = []
+lines_list = []
 
 def get_file_lines(filename):
     line_count = 0
     for line in filename:
         line = line.rstrip("\n").split(":")
-        poem_lines.append(line)
+        lines_list.append(line)
         line_count += 1
 
-    return poem_lines
+    return lines_list
 
 
-def lines_printed_backwards(filename):
-    for line_num, text in reversed(poem_lines):
+def lines_printed_backwards(lines_list):
+    for line_num, text in reversed(lines_list):
         print(line_num, text)
 
+
 get_file_lines(infile)
-lines_printed_backwards(infile)
+lines_printed_backwards(lines_list)
