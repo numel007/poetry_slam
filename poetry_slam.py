@@ -13,7 +13,7 @@ def get_file_lines(filename):
     # Iterate through poem.txt
     for line in infile:
         # Split each line at ":" and remove line breaks. Store in a list called split_poem
-        split_poem = line.rstrip().split(": ")
+        split_poem = line.rstrip().rsplit(":")
         # Store index 0 of split_poem in line_num for future reference
         line_num = split_poem[0]
         # Store index 1 of split_poem in poem_text for future reference
@@ -47,6 +47,7 @@ def lines_printed_random(lines_list):
         print(text)
     print('\n')
 
+# The custom function scrambles all the words in each line of the poem.
 def lines_printed_custom(lines_list):
     # Convert lines_list into list and store in lines_list_custom
     lines_list_custom = list(lines_list.items())
