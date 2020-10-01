@@ -2,16 +2,15 @@
 from random import choice
 import random
 
-# Open poem.txt and store in infile
-infile = open("poem.txt", "r")
-
 # Initialize an empty dictionary
 lines_list = {}
 
 def get_file_lines(filename):
-
-    # Iterate through poem.txt
-    for line in infile:
+    # Open input file and store contents in variable lines
+    with open(filename, "r") as openfile:
+        lines = openfile.readlines()
+    # Iterate through lines
+    for line in lines:
         # Split each line at ":" and remove line breaks. Store in a list called split_poem
         split_poem = line.rstrip().rsplit(":")
         # Store index 0 of split_poem in line_num for future reference
@@ -42,7 +41,7 @@ def lines_printed_random(lines_list):
         randPoem[i] = choice(list(lines_list.items()))
         i += 1
 
-    # Print just the values stored in randPoem
+    # Print just the values stored in randPoem, which include the original keys from lines_list for reference.
     for line_num, text in randPoem.items():
         print(text)
     print('\n')
@@ -61,7 +60,7 @@ def lines_printed_custom(lines_list):
         print(lines_list[i])
 
 # Call functions
-get_file_lines(infile)
+get_file_lines('poem.txt')
 lines_printed_backwards(lines_list)
 lines_printed_random(lines_list)
 lines_printed_custom(lines_list)
